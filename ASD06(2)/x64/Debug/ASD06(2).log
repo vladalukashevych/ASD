@@ -1,0 +1,3 @@
+﻿  ASD06(2).cpp
+D:\ZTU\ASD Loktikova\ASD\ASD06(2)\ASD06(2).cpp(52,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ASD06(2).vcxproj -> D:\ZTU\ASD Loktikova\ASD\x64\Debug\ASD06(2).exe

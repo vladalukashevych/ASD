@@ -1,0 +1,10 @@
+﻿  ASD01.cpp
+D:\ZTU\ASD Loktikova\ASD02\ASD01\ASD01.cpp(110,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\ZTU\ASD Loktikova\ASD02\ASD01\ASD01.cpp(110,9): message : consider using '%zd' in the format string
+D:\ZTU\ASD Loktikova\ASD02\ASD01\ASD01.cpp(111,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\ZTU\ASD Loktikova\ASD02\ASD01\ASD01.cpp(111,9): message : consider using '%zd' in the format string
+D:\ZTU\ASD Loktikova\ASD02\ASD01\ASD01.cpp(116,40): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'SigShort *'
+D:\ZTU\ASD Loktikova\ASD02\ASD01\ASD01.cpp(128,10): warning C4309: '=': truncation of constant value
+D:\ZTU\ASD Loktikova\ASD02\ASD01\ASD01.cpp(132,17): warning C4305: '=': truncation from 'int' to 'signed char'
+D:\ZTU\ASD Loktikova\ASD02\ASD01\ASD01.cpp(132,13): warning C4309: '=': truncation of constant value
+  ASD01.vcxproj -> D:\ZTU\ASD Loktikova\ASD02\x64\Debug\ASD01.exe

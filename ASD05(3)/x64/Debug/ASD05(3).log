@@ -1,0 +1,5 @@
+﻿  ASD05(3).cpp
+D:\ZTU\ASD Loktikova\ASD\ASD05(3)\ASD05(3).cpp(183,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\ZTU\ASD Loktikova\ASD\ASD05(3)\ASD05(3).cpp(280,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\ZTU\ASD Loktikova\ASD\ASD05(3)\ASD05(3).cpp(224): warning C4715: 'pushIndex': not all control paths return a value
+  ASD05(3).vcxproj -> D:\ZTU\ASD Loktikova\ASD\x64\Debug\ASD05(3).exe

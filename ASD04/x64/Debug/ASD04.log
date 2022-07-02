@@ -1,0 +1,3 @@
+﻿  ASD04.cpp
+D:\ZTU\ASD Loktikova\ASD\ASD04\ASD04.cpp(153,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  ASD04.vcxproj -> D:\ZTU\ASD Loktikova\ASD\x64\Debug\ASD04.exe

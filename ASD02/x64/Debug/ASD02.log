@@ -1,0 +1,4 @@
+﻿  ASD02.cpp
+D:\ZTU\ASD Loktikova\ASD02\ASD02\ASD02.cpp(11,26): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+D:\ZTU\ASD Loktikova\ASD02\ASD02\ASD02.cpp(14,20): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ASD02.vcxproj -> D:\ZTU\ASD Loktikova\ASD02\x64\Debug\ASD02.exe

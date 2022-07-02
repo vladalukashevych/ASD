@@ -1,0 +1,4 @@
+﻿  ASD04(2).cpp
+D:\ZTU\ASD Loktikova\ASD\ASD04(2)\ASD04(2).cpp(44,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\ZTU\ASD Loktikova\ASD\ASD04(2)\ASD04(2).cpp(52,48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  ASD04(2).vcxproj -> D:\ZTU\ASD Loktikova\ASD\x64\Debug\ASD04(2).exe
