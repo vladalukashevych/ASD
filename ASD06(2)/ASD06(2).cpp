@@ -36,9 +36,9 @@ void shellSort(double* arr, int n)
 
         for (i = inc; i < n; i++)
         {
-            double temp = arr[i];
-            for (j = i - inc; (j >= 0) && (arr[j] > temp); j -= inc)
-                arr[j + inc] = arr[j];
+            double temp = arr[i];//оголошуємо змінну в яку записуємо значення поточного елементу
+            for (j = i - inc; j >= 0 && arr[j] > temp; j -= inc)
+                arr[j + inc] = arr[j];//шукаємо, куди можна вставити поточний елемент, щоб його лівий сусід заданого приросту був меншим, а правий - більшим
             arr[j + inc] = temp;
         }
     }

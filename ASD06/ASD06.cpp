@@ -2,8 +2,8 @@
 #include <time.h>
 #include <chrono>
 #define  root i+sh
-#define  left 2*i+1+sh
-#define  right 2*i+2+sh
+#define  left 2*i+1+sh // правий нащадок
+#define  right 2*i+2+sh // л≥вий нащадок
 #define GETTIME std::chrono::steady_clock::now
 #define CALCTIME std::chrono::duration_cast<std::chrono::milliseconds>
 
@@ -27,16 +27,16 @@ int main()
         b = 0;
         for (int i = 0; i < n; ++i)//запускаЇм цикл по всьому масиву
         {
-            if (right < n)
+            if (right < n) 
             {
-                if (arr[root] > arr[left] || arr[root] > arr[right])
+                if (arr[root] > arr[left] || arr[root] > arr[right]) //в отриманому п≥ддерев≥ шукаЇтьс€ вузол з максимальним значенн€м
                 {
-                    if (arr[left] < arr[right])
+                    if (arr[left] < arr[right])//€кщо л≥вий нащадок менше правого, в≥н зм≥нюЇтьс€ м≥сц€ми з корнем
                     {
                         int t = arr[root]; arr[root] = arr[left]; arr[left] = t;
                         b = 1;
                     }
-                    else if (arr[right] < arr[left])
+                    else if (arr[right] < arr[left])//€кщо навпаки, то правий м≥н€Їтьс€ з корнем
                     {
                         int t = arr[root]; arr[root] = arr[right]; arr[right] = t;
                         b = 1;
